@@ -1,0 +1,229 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=IBM+Plex+Mono:wght@500&display=swap');
+</style>
+
+/* font-family: 'Belanosima', sans-serif;
+font-family: 'IBM Plex Mono', monospace; */
+
+/* #FFCF6A
+#E67660
+#068F8E
+#5E87C4 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:'Belanosima', sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-image: radial-gradient(circle at bottom center, rgba(254, 42, 35, 0.368),rgba(83, 203, 141, 0.401)),url(./asset/img/fondo_pizzarra.img.jpg);
+  
+    background-size: cover;
+  
+
+}
+
+nav{
+    background-color: #FFCF6A; 
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.logo{
+    width: 170px;
+    position: absolute;
+    top:-30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.item{
+    color: #E67660;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+}
+
+.Nosotros{
+    left: 80%;
+}
+
+.Contacto{
+    left: 60%;
+}
+
+.Cursos{
+    left: 40%;
+}
+
+.aula{
+    left: 20%;
+}
+
+.slogan{
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 10px 16px 10px black;
+    position: absolute;
+    top: 90px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.ola{
+    width: 100%; 
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+}
+
+.contenedor{
+    position: relative;
+    bottom: 40px;
+    width: 100%;
+    height: 800px;
+}
+
+.Tips{
+    background-color: #E67660;
+    width: 100%;
+    height: 550px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+}
+
+.cart{
+    background-color: #FFCF6A; 
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 10px 16px 10px rgba(0, 0, 0, 0.112) ;
+}
+
+.cart img{
+    width: 200px;
+   
+}
+
+.uno{
+    left: 15%;
+}
+
+.dos{
+    left: 40%;
+}
+
+.tres{
+    left: 65%;
+}
+
+.Mateamigos{
+    background-color: #5E87C4;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    bottom: 40px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.amititulo{
+    padding-top:30px;
+}
+
+.mate{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.amigo1{
+    background-image: url(./asset/img/ma5.jpg);
+    left: 75%;
+}
+.amigo2{
+    background-image: url(./asset/img/ma2.jpg);
+    left: 15%;
+}
+.amigo3{
+    background-image: url(./asset/img/ma3.jpg);
+    left: 30%;
+}
+.amigo4{
+    background-image: url(./asset/img/ma1.jpg);
+    left: 60%;
+}
+.amigo5{
+    background-image: url(./asset/img/ma6.png.png);
+    left: 45%;
+    filter: drop-shadow(-1px -25px 10px yellow) ;
+}
+
+.description{
+    font-size: 16px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 200px;
+}
+
+.pie{
+    position: relative;
+    top: 105px;
+    width: 100%;
+    height: 120px;
+    background-color: #068F8E;
+    border-top: 2px solid black;
+}
+
+.fa-brands{
+    color: #FFCF6A;
+    font-size: 30px;
+    position: absolute;
+    padding-top: 20px;
+   
+}
+
+.fa-facebook-f{
+    left: 30%;
+}
+
+.fa-instagram{
+    left: 40%;
+}
+
+.fa-twitter{
+    left: 50%;
+}
+
+.fa-linkedin-in{
+    left: 60%;
+}
+
+.fa-whatsapp{
+    left: 70%;
+}
+
+.copy{
+    text-align: center;
+    padding-top: 60px;
+}
